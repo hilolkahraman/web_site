@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--==================== EMAIL SERVICE ====================-->
+        <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Email.JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('gF3M_-jS8KuvoCpV4');
+            })();
+        </script>
+
+        <!--==================== CALENDAR SERVICE ====================-->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+        <!--==================== TITLE and Favicon ====================-->
+        <title>Hilâl Kahraman Portfolio 👋</title>
+        <!-- <link rel="shortcut icon" type="image/png" href="assets/img/"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+        <-- <link rel="manifest" href="/site.webmanifest"> -->
+
+        <!-- MS Tile - for Microsoft apps-->
+        <meta name="msapplication-TileImage" content="https://github.com/hilolkahraman /myPortfolio/blob/main/assets/snaps/light.png?raw=true" />    
+
+        <!-- HTML Meta Tags -->
+        <title>Hilâl Kahraman Portfolio 👋</title>
+        <meta name="" content="Hilâl Kahraman">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.hillkhrmn.com/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Hilâl Kahraman Portfolio ">
+        <meta property="og:description" content=".">                                  
+        <meta name="twitter:title" content="Hilâl Kahraman Portfolio ">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="https://github.com/hilolkahraman/myPortfolio/blob/main/assets/snaps/light.png?raw=true">
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2367QRTG56"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2367QRTG56');
+        </script>
+
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Hilâl Kahraman</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                       
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Hakkımda
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Yetenekler
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> İletişim
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme Change Buttons -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about" data-id="about">
+                <h2 class="section__title">Hakkımda</h2>
+                <span class="section__subtitle">Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/resim.jpg" alt="Hilâl Kahraman" class="resim__img">
+                     
+                    
+                    <div class="about__data">
+                        
+
+                        <p class="about__description">Merhaba,Ben birinci sınıf bilgisayar programcılığı öğrencisiyim ve kodlama dünyasına olan tutkumla bilgi ve becerilerimi sürekli geliştirmekteyim.
+                            Yenilikçi projelerde yer alarak teknoloji dünyasında iz bırakmayı hedefliyorum.Ekip çalışmasına yatkın, iletişim becerilerimle karmaşık problemleri basit çözümlere dönüştürüyor ve 
+                            kararlılığım sayesinde her zorluğun üstesinden geliyorum.Öğrencilik sürecimde, çeşitli programlama dilleriyle çalışarak ve gerçek dünya problemlerini çözerek kendimi sürekli geliştirdim.
+                            Bu süreçte edindiğim pratik deneyim, bilgisayar sistemlerinin karmaşık yapısını anlama ve etkili çözümler üretme yeteneğimi güçlendirdi.Kariyerim boyunca, teknolojinin hızla değişen doğasına 
+                            ayak uydurmak için sürekli yeni şeyler öğrenmek ve kendimi geliştirmek istiyorum. Bu tutkulu öğrenme süreci, beni her zaman daha iyi bir programcı olmaya motive ediyor ve her fırsatta yeni 
+                            beceriler kazanmaya açığım.Sizlere değerli katkılar sunabileceğime inanıyorum ve birlikte çalışma fırsatını sabırsızlıkla bekliyorum.
+                            
+                            
+                            
+                            
+                            
+                            
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Benimle İletişime Geçin <i class="uil uil-message button__icon"></i>
+                            </a>
+
+                            <br><br><br/><br/> 
+
+                        <div class="about__buttons">
+                            <a href="assets/pdf/hilalkahraman.pdf" class="button button--flex" target="_blank" rel="noopener noreferrer">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+               
+              
+            
+            </section>
+
+            <!--==================== SKILLS ====================-->
+        
+               
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Kariyer</h2>
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Eğitimler
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Çalışma Hayatı
+                        </div>
+                    </div>
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                             <!--==================== QUALIFICATION  1 ====================-->
+                             <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__degree">Devam Ediyor</span>
+                                    <h3 class="qualification__tittle">Bilgisayar Programcılığı</h3>
+                                    <span class="qualification__subtitle">Kayseri Üniversitesi</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023 - 
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION  2 ====================-->
+                             <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__degree">Mezun</span>
+                                    <h3 class="qualification__tittle"> Anadolu Lisesi</h3>
+                                    <span class="qualification__subtitle">Kolukısa Anadolu Lisesi</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 - 2023
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                     </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION  1 ==================== -->
+                            <div class="qualification__data">
+                               <!--<div>
+                                   <span class="qualification__degree">Stajyer</span>
+                                   <h3 class="qualification__tittle">Lean Soft ERP</h3>
+                                   <span class="qualification__subtitle">Kurumsal Kaynak Planlaması</span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2022-2023
+                                   </div>
+                               </div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>-->
+                           </div>
+                       </div>
+
+                    </div>
+                </div>
+            </section>  
+            <section class="paper section" id="paper" data-id="paper">
+                <h2 class="section__title"></h2>
+                <span class="section__subtitle"></span>
+                
+                <div class="paper__container container swiper">
+                    <div class="swiper-wrapper">
+
+                    <!--==================== PAPER 1 ====================--
+                        <div class="paper__content grid swiper-slide">
+                            <img src="assets/img/btk_sql.jpeg" alt="BTK Akademi SQL Sertifikası" class="paper__img">
+
+                            <div class="paper__dat">
+                                <h3 class="paper__title">Btk Akademi Uygulamalarla Sql Öğreniyorum</h3>
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>  
+
+                        !--==================== PAPER 2 ====================--
+                        <div class="paper__content grid swiper-slide">
+                            <img src="assets/img/btk_sql1.jpeg" alt="Btk Akademi Her Yönüyle Sql Server " class="paper__img">
+
+                            <div class="paper__dat">
+                                <h3 class="paper__title">Btk Akademi Her Yönüyle Sql Server</h3>
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>    
+                    
+                    <--==================== PAPER 3 ====================--
+                    <div class="paper__content grid swiper-slide">
+                        <img src="assets/img/t_sql.jpeg" alt="Turkcell Geleceği Yazanlar  Sql Server Sertifikası 01 " class="paper__img">
+
+                        <div class="paper__dat">
+                            <h3 class="paper__title">Turkcell Geleceği Yazanlar  Sql Server Sertifikası 01</h3>
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>    
+               
+
+                 !--==================== PAPER 4 ====================--
+                <div class="paper__content grid swiper-slide">
+                    <img src="assets/img/t_sql02.jpeg" alt="Turkcell Geleceği Yazanlar  Sql Server Sertifikası 02 " class="paper__img">
+
+                    <div class="paper__dat">
+                        <h3 class="paper__title">Turkcell Geleceği Yazanlar  Sql Server Sertifikası 02</h3>
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>    
+                 
+
+              <--==================== PAPER 5 ====================--
+              <div class="paper__content grid swiper-slide">
+                <img src="assets/img/t_sql03.jpeg" alt="Turkcell Geleceği Yazanlar  Sql Server Sertifikası 03 " class="paper__img">
+
+                <div class="paper__dat">
+                    <h3 class="paper__title">Turkcell Geleceği Yazanlar  Sql Server Sertifikası 03</h3>
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+              </div>    
+            -->
+
+           <!--==================== PAPER 6 ====================-
+            <div class="paper__content grid swiper-slide">
+             <img src="assets/img/c01.jpeg" alt="Turkcell Geleceği Yazanlar c# Görsel Programlama 01 " class="paper__img">
+
+              <div class="paper__dat">
+                <h3 class="paper__title">Turkcell Geleceği Yazanlar c# Görsel Programlama 01</h3>
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+             </div>
+           </div>    
+    
+
+        <--==================== PAPER 7 ====================-
+        <div class="paper__content grid swiper-slide">
+         <img src="assets/img/c02.jpeg" alt="Turkcell Geleceği Yazanlar c# Görsel Programlama 02 " class="paper__img">
+          <div class="paper__dat">
+            <h3 class="paper__title">Turkcell Geleceği Yazanlar c# Görsel Programlama 02</h3>
+                <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+         </div>
+        </div>    
+
+
+
+
+            <!- Add Arrows -->
+            <div class="swiper-button-next">
+             <i class="uil uil-angle-right-b swiper-paper-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left-b swiper-paper-icon"></i>
+            </div>
+
+             Add Pagination 
+            <div class="swiper-pagination"></div>
+    </div>
+   </section>
+
+
+
+            <!--==================== REQUEST MEETING ====================-->
+            <section class="project section" id="meeting">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">Sormak İstedikleriniz</h2>
+                            <br>
+                            <style>
+                                project_title{
+                                    margin: 8;
+                                }
+                            </style>
+                            <a href="https://instagram.com/hilolkahraman" class="button button--flex button--white"> 
+                                Sorunuzu Yazın 
+                                <i class="uil uil-message project_icon button__icon"></i>
+                            </a>
+                            <br><br/>
+                        </div>
+                       <!--- <img src="assets/img/resim4.jpg" alt="Hilâl Kahraman" class="project__img"> -->
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <div style="margin-right: 10px; margin-top: 10px;">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Yukarıya Çıkın</span>
+                            <i class="uil uil-arrow-up home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact" data-id="contact">
+                <h2 class="section__title">Benimle İletişime Geçin</h2>
+                <span class="section__subtitle">Get in Touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">İletişim Numarası</h3>
+                                <span class="contact__subtitle">0553 332 44 38</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <!-- <span class="contact__subtitle">hilol.kahraman@gmail.com</span> -->
+                                <p><a class="contact__subtitle" href="mailto:hilol.kahraman@gmail.com">hilol.kahraman@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Konum</h3>
+                                <span class="contact__subtitle">Türkiye</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="mailgonder.php" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="fullName" class="contact__label">Adınız Soyadınız</label>
+                                <input type="text" placeholder="Adınızı Soyadınızı Girin." class="contact__input" id="fullName" onkeyup="validateName()">
+                                <span id="name-error" class="contact__subtitle"></span>
+                            </div>
+                            <div class="contact__content">
+                                <label for="email_id" class="contact__label">Email</label>
+                                <input type="email" placeholder="Mail Adresinizi Girin" class="contact__input" id="email_id" onkeyup="validateEmail()">
+                                <span id="email-error" class="contact__subtitle"></span>
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="message" class="contact__label">Mesajınız</label>
+                            <textarea name="message" cols="0" rows="7" placeholder="Mesajınızı Girin" class="contact__input" id="message" onkeyup="validateMessage()"></textarea>
+                            <span id="message-error" class="contact__subtitle"></span>
+                        </div>
+                        <div>
+                            <button type="submit" class="button button--flex">
+                                Mesajınızı İletin
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <script>
+                    function validateForm() {
+                        var fullName = document.getElementById("fullName").value;
+                        var email = document.getElementById("email_id").value;
+                        var message = document.getElementById("message").value;
+                
+                        // Form validasyonunu yap
+                
+                        // Eğer form doğruysa, formu gönder
+                        if (validateName() && validateEmail() && validateMessage()) {
+                            // Formu gönder
+                            return true;
+                        } else {
+                            // Form hatalıysa, gönderme
+                            return false;
+                        }
+                    }
+                </script>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__title">Hilâl Kahraman</a><br>
+                        <span class="footer__subtitle">Bilgisayar Programcısı</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#projects" class="footer__link"></a>
+                        </li>
+                    
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/rumeysanurars" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                       
+                        <a href="https://github.com/rumeysanurars" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Tüm Hakları Saklıdır.</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const scrollButton = document.querySelector('.home__scroll-button');
+                scrollButton.addEventListener('click', function() {
+                    window.scrollTo({
+                        top: document.body.scrollHeight,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+        
+    </body>
+</html>
